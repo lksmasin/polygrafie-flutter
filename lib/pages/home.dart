@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start, // Zarovnání na levou stranu
         children: [
           // První řádek s tlačítky zarovnaný vlevo
-          Padding(
-            padding: const EdgeInsets.all(8.0),
+          const Padding(
+            padding: EdgeInsets.all(8.0),
           ),
           //Divider(),
           // Menu nástrojů

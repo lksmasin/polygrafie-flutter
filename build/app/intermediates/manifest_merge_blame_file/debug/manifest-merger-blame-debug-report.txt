@@ -54,7 +54,7 @@
 40        android:debuggable="true"
 41        android:extractNativeLibs="true"
 42        android:icon="@mipmap/ic_launcher"
-43        android:label="polygrafie" >
+43        android:label="polygrafické nástroje" >
 44        <activity
 45            android:name="org.eu.lukymas.polygrafie.MainActivity"
 46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

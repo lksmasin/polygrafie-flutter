@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:polygrafie/pages/home.dart';
+import 'package:polygrafie/pages/informace.dart';
+import 'package:polygrafie/pages/nastaveni.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.lightGreen,
+          seedColor: Colors.green,
           brightness: Brightness.dark,
         ),
       ),
@@ -35,15 +37,22 @@ class RootPage extends StatefulWidget {
 
 
 class _RootPageState extends State<RootPage> {
-int currentPage = 0;
+  int currentPage = 0;
+  
+  final screens = [
+    const HomePage(),
+    InfoPage(),
+    SettingsPage(),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Polygrafické nástroje"),
+        title: const Text("Polygrafické nástroje"),
         elevation: 1,
       ),
-      body: HomePage(),
+      body: screens[currentPage],
       bottomNavigationBar: NavigationBar(
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: "Domů"),

@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Název",
+      title: "",
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
@@ -21,7 +21,42 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage()
+      home: const RootPage()
+    );
+  }
+}
+
+class RootPage extends StatefulWidget {
+  const RootPage({super.key});
+
+  @override
+  State<RootPage> createState() => _RootPageState();
+}
+
+
+class _RootPageState extends State<RootPage> {
+int currentPage = 0;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Polygrafické nástroje"),
+        elevation: 1,
+      ),
+      body: HomePage(),
+      bottomNavigationBar: NavigationBar(
+        destinations: const [
+          NavigationDestination(icon: Icon(Icons.home), label: "Domů"),
+          NavigationDestination(icon: Icon(Icons.info), label: "Informace"),
+          NavigationDestination(icon: Icon(Icons.settings), label: "Nastavení"),
+        ],
+        onDestinationSelected: (int index){
+          setState(() {
+            currentPage = index;
+          });
+        },
+        selectedIndex: currentPage,
+      ),
     );
   }
 }

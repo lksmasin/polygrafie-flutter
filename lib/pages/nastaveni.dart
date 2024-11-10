@@ -9,6 +9,7 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Nastavení'),
+        elevation: 1,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

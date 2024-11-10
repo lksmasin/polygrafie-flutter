@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:polygrafie/pages/home.dart';
 import 'package:polygrafie/pages/informace.dart';
 import 'package:polygrafie/pages/nastaveni.dart';
@@ -41,17 +42,13 @@ class _RootPageState extends State<RootPage> {
   
   final screens = [
     const HomePage(),
-    InfoPage(),
-    SettingsPage(),
+    const InfoPage(),
+    const SettingsPage(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Polygrafické nástroje"),
-        elevation: 1,
-      ),
       body: screens[currentPage],
       bottomNavigationBar: NavigationBar(
         destinations: const [
@@ -60,6 +57,7 @@ class _RootPageState extends State<RootPage> {
           NavigationDestination(icon: Icon(Icons.settings), label: "Nastavení"),
         ],
         onDestinationSelected: (int index){
+          HapticFeedback.selectionClick();
           setState(() {
             currentPage = index;
           });

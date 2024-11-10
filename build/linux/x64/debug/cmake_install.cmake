@@ -1,8 +1,8 @@
-# Install script for directory: /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/linux
+# Install script for directory: /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,102 +44,102 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie")
+  if(EXISTS "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie"
+         FILE "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie")
+   "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/intermediates_do_not_run/polygrafie")
-  if(EXISTS "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie")
+  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/intermediates_do_not_run/polygrafie")
+  if(EXISTS "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie"
-         OLD_RPATH "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie"
+         OLD_RPATH "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/polygrafie")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/polygrafie")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/data/icudtl.dat")
+   "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/linux/flutter/ephemeral/icudtl.dat")
+  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
+   "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/lib/")
+   "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/lib/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/native_assets/linux/")
+  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/native_assets/linux/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/data/flutter_assets")
+   "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build//flutter_assets")
+  file(INSTALL DESTINATION "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/install_local_manifest.txt"
+  file(WRITE "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -155,6 +155,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

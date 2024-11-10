@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.eu.lukymas.polygrafie.app-mergeDebugResources-24:/values/values.xml",
+            "outputFile": "/home/masin/.gradle/daemon/8.3/org.eu.lukymas.polygrafie.app-mergeDebugResources-24:/values/values.xml",
             "map": [
                 {
                     "source": "/home/masin/.gradle/caches/transforms-3/7794f10e2cc1161d7666b6dd70a8eed0/transformed/jetified-startup-runtime-1.1.1/res/values/values.xml",
@@ -110,6 +110,25 @@
                     }
                 },
                 {
+                    "source": "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "155,159",
+                        "startColumns": "4,4",
+                        "startOffsets": "7894,8075",
+                        "endLines": "158,161",
+                        "endColumns": "12,12",
+                        "endOffsets": "8070,8239"
+                    }
+                },
+                {
                     "source": "/home/masin/.gradle/caches/transforms-3/a017c0c1c150e766625df730ca1d1522/transformed/jetified-window-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,9,17,25,37,43,49,50,51,52,53,54,55,61,66,74,89",
@@ -144,24 +163,165 @@
                         "endColumns": "42",
                         "endOffsets": "6926"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "org.eu.lukymas.polygrafie.app-mergeDebugResources-24:/values/values.xml",
+            "map": [
                 {
-                    "source": "/home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/main/res/values/ic_launcher_background.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     },
                     "to": {
-                        "startLines": "155,159",
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "2014",
+                        "endColumns": "56",
+                        "endOffsets": "2066"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/7794f10e2cc1161d7666b6dd70a8eed0/transformed/jetified-startup-runtime-1.1.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "147",
+                        "startColumns": "4",
+                        "startOffsets": "7286",
+                        "endColumns": "82",
+                        "endOffsets": "7364"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/63d3b185799b2c098a0f6ed885ea8db1/transformed/fragment-1.7.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "120,124,145",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "5852,6021,7152",
+                        "endColumns": "56,64,63",
+                        "endOffsets": "5904,6081,7211"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/6066a53547e8fbcf4f45946ad85f0e5d/transformed/lifecycle-viewmodel-2.7.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "144",
+                        "startColumns": "4",
+                        "startOffsets": "7102",
+                        "endColumns": "49",
+                        "endOffsets": "7147"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/42e115ca81393979cdff36cce874f0ab/transformed/jetified-savedstate-1.2.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "143",
+                        "startColumns": "4",
+                        "startOffsets": "7048",
+                        "endColumns": "53",
+                        "endOffsets": "7097"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/28ee8a5ebc96d117de5598ee6fce01ba/transformed/core-1.13.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "25,55,56,57,58,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,121,122,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,146,148,149,150,151,152,153,154,155,163,164,168,169,173,174,175",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "725,1723,1795,1883,1948,2071,2140,2203,2273,2341,2413,2483,2544,2618,2691,2752,2813,2875,2939,3001,3062,3130,3230,3290,3356,3429,3498,3555,3607,3669,3741,3817,3882,3941,4000,4060,4120,4180,4240,4300,4360,4420,4480,4540,4600,4659,4719,4779,4839,4899,4959,5019,5079,5139,5199,5259,5318,5378,5438,5497,5556,5615,5674,5733,5909,5944,6086,6141,6204,6259,6317,6375,6436,6499,6556,6607,6657,6718,6775,6841,6875,6910,7216,7369,7436,7508,7577,7646,7720,7792,7880,8301,8418,8619,8729,8930,9059,9131",
+                        "endLines": "25,55,56,57,58,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,121,122,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,146,148,149,150,151,152,153,154,155,163,167,168,172,173,174,175",
+                        "endColumns": "59,71,87,64,65,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,66,71,68,68,73,71,87,70,116,12,109,12,128,71,66",
+                        "endOffsets": "780,1790,1878,1943,2009,2135,2198,2268,2336,2408,2478,2539,2613,2686,2747,2808,2870,2934,2996,3057,3125,3225,3285,3351,3424,3493,3550,3602,3664,3736,3812,3877,3936,3995,4055,4115,4175,4235,4295,4355,4415,4475,4535,4595,4654,4714,4774,4834,4894,4954,5014,5074,5134,5194,5254,5313,5373,5433,5492,5551,5610,5669,5728,5787,5939,5974,6136,6199,6254,6312,6370,6431,6494,6551,6602,6652,6713,6770,6836,6870,6905,6940,7281,7431,7503,7572,7641,7715,7787,7875,7946,8413,8614,8724,8925,9054,9126,9193"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/aecaa94fd3010ebbc81c2fe40f782abe/transformed/jetified-activity-1.8.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "123,142",
                         "startColumns": "4,4",
-                        "startOffsets": "7894,8075",
-                        "endLines": "158,161",
+                        "startOffsets": "5979,6988",
+                        "endColumns": "41,59",
+                        "endOffsets": "6016,7043"
+                    }
+                },
+                {
+                    "source": "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "156,160",
+                        "startColumns": "4,4",
+                        "startOffsets": "7951,8132",
+                        "endLines": "159,162",
                         "endColumns": "12,12",
-                        "endOffsets": "8070,8239"
+                        "endOffsets": "8127,8296"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/a017c0c1c150e766625df730ca1d1522/transformed/jetified-window-1.2.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,9,17,26,38,44,50,51,52,53,54,119",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,287,506,785,1099,1287,1474,1527,1587,1639,1684,5792",
+                        "endLines": "2,8,16,24,37,43,49,50,51,52,53,54,119",
+                        "endColumns": "58,11,11,11,11,11,11,52,59,51,44,38,59",
+                        "endOffsets": "109,282,501,720,1094,1282,1469,1522,1582,1634,1679,1718,5847"
+                    }
+                },
+                {
+                    "source": "/home/masin/.gradle/caches/transforms-3/c3e60d8edb6a86f432de0791fcaa87bd/transformed/lifecycle-runtime-2.7.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "141",
+                        "startColumns": "4",
+                        "startOffsets": "6945",
+                        "endColumns": "42",
+                        "endOffsets": "6983"
                     }
                 }
             ]

@@ -18,10 +18,10 @@ org.eu.lukymas.polygrafie.app-lifecycle-livedata-core-2.7.0-16 /home/masin/.grad
 org.eu.lukymas.polygrafie.app-jetified-activity-1.8.1-17 /home/masin/.gradle/caches/transforms-3/aecaa94fd3010ebbc81c2fe40f782abe/transformed/jetified-activity-1.8.1/res
 org.eu.lukymas.polygrafie.app-lifecycle-livedata-2.7.0-18 /home/masin/.gradle/caches/transforms-3/c11b0fd8d42c1350d7f4e72974d231fa/transformed/lifecycle-livedata-2.7.0/res
 org.eu.lukymas.polygrafie.app-lifecycle-runtime-2.7.0-19 /home/masin/.gradle/caches/transforms-3/c3e60d8edb6a86f432de0791fcaa87bd/transformed/lifecycle-runtime-2.7.0/res
-org.eu.lukymas.polygrafie.app-debug-20 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/android/app/src/debug/res
-org.eu.lukymas.polygrafie.app-main-21 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/android/app/src/main/res
-org.eu.lukymas.polygrafie.app-pngs-22 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/app/generated/res/pngs/debug
-org.eu.lukymas.polygrafie.app-resValues-23 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/app/generated/res/resValues/debug
-org.eu.lukymas.polygrafie.app-packageDebugResources-24 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
-org.eu.lukymas.polygrafie.app-packageDebugResources-25 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
-org.eu.lukymas.polygrafie.app-merged_res-26 /home/masin/Vyvoj/GitHub Projekty/polygrafie-flutter/build/app/intermediates/merged_res/debug
+org.eu.lukymas.polygrafie.app-debug-20 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/debug/res
+org.eu.lukymas.polygrafie.app-main-21 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/main/res
+org.eu.lukymas.polygrafie.app-pngs-22 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/app/generated/res/pngs/debug
+org.eu.lukymas.polygrafie.app-resValues-23 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/app/generated/res/resValues/debug
+org.eu.lukymas.polygrafie.app-packageDebugResources-24 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.eu.lukymas.polygrafie.app-packageDebugResources-25 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.eu.lukymas.polygrafie.app-merged_res-26 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/app/intermediates/merged_res/debug

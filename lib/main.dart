@@ -3,31 +3,43 @@ import 'package:flutter/services.dart';
 import 'package:polygrafie/pages/home.dart';
 import 'package:polygrafie/pages/informace.dart';
 import 'package:polygrafie/pages/nastaveni.dart';
+import 'package:provider/provider.dart';
+import 'package:polygrafie/ChangeNotifier.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ThemeProvider(),
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "",
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green,
-          brightness: Brightness.dark,
-        ),
-      ),
-      debugShowCheckedModeBanner: false,
-      home: const RootPage()
+    return Consumer<ThemeProvider>(
+      builder: (context, themeProvider, child) {
+        return MaterialApp(
+          title: 'Polygrafické nástroje',
+          theme: ThemeData(
+            brightness: Brightness.light,
+            primarySwatch: themeProvider.primaryColor,
+          ),
+          darkTheme: ThemeData(
+            brightness: Brightness.dark,
+            primarySwatch: themeProvider.primaryColor,
+          ),
+          themeMode: themeProvider.themeMode,
+          debugShowCheckedModeBanner: false,
+          home: const RootPage()
+        );
+      },
     );
   }
 }
+
+
 
 class RootPage extends StatefulWidget {
   const RootPage({super.key});
@@ -43,7 +55,7 @@ class _RootPageState extends State<RootPage> {
   final screens = [
     const HomePage(),
     const InfoPage(),
-    const SettingsPage(),
+    SettingsPage(),
   ];
 
   @override

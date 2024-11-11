@@ -4,7 +4,6 @@ color ic_launcher_background
 drawable launch_background
 mipmap ic_launcher
 mipmap ic_launcher_foreground
-mipmap ic_launcher_monochrome
 mipmap ic_launcher_round
 style LaunchTheme
 style NormalTheme

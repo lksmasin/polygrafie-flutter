@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:polygrafie/pages/bug_report.dart';
-import 'package:polygrafie/pages/nastroje/pocitani_rezu.dart';  // Importujte správně třídu
+import 'package:polygrafie/pages/nastroje/pocitani_rezu.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -59,7 +59,14 @@ class HomePage extends StatelessWidget {
                 ListTile(
                   leading: const Icon(Icons.calculate),
                   title: const Text('Počítání užitku tisk. archů'),
-                  onTap: () {},
+                  onTap: () {
+/*                     Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => PocitaniRezu(), // Použijte třídu PocitaniRezu
+                      ),
+                    ); */
+                  },
                 ),
                 ListTile(
                   leading: const Icon(Icons.functions),

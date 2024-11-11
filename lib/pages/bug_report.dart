@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 //import 'package:url_launcher/url_launcher.dart';
 
 class BugReport extends StatelessWidget {
+  const BugReport({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

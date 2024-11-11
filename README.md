@@ -1,16 +1,7 @@
-# polygrafie
+# polygrafické nástroje
 
-polygrafie
+Aplikace slouží jako pomůcka pro některé práce například kalkulace..
 
-## Getting Started
+Originální projekt v [lksmasin/polygrafie](https://github.com/lksmasin/polygrafie) byl napsán v pythonu později přepsán do HTML, CSS a JavaScriptu pro snadnější používání.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aktuální verze je napsána ve Flutteru (Dart). Hlavním zaměřením je build pro web k dispozici ve větvi [gh-pages](https://github.com/lksmasin/polygrafie-flutter/tree/gh-pages) kde jsou manuálně nahrány soubory z /build/web.

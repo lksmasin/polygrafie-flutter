@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PocitaniRezu extends StatefulWidget {
+  const PocitaniRezu({super.key});
+
   @override
   _PocitaniRezuState createState() => _PocitaniRezuState();
 }
@@ -20,8 +22,9 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
   List<String> levyRezyList = [];
   List<String> horniRezyList = [];
 
-  void _calculate() {
-    // Pokud některé pole není vyplněno, použije se výchozí hodnota 0
+void _calculate() {
+  // Ověří, zda je formulář validní
+  if (_formKey.currentState?.validate() ?? false) {
     int sirkaFormatu = _parseInput(_sirkaFormatuController.text);
     int vyskaFormatu = _parseInput(_vyskaFormatuController.text);
     int sirkaTiskoviny = _parseInput(_sirkaTiskovinyController.text);
@@ -35,13 +38,15 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
       horniRezyList = horniRezy(vyskaFormatu, vyskaTiskoviny, okrajHorni, spadavka);
     });
   }
+}
 
-  // Funkce pro převod textu na číslo a kontrolu prázdných hodnot
+
+  // Kontorola prázdných hodnot
   int _parseInput(String input) {
     if (input.isEmpty) {
-      return 0; // Pokud je pole prázdné, použije se 0
+      return 0; // Pokud je pole prázdné použij 0
     }
-    return int.tryParse(input) ?? 0; // Pokud se hodnota nedá převést, použije se 0
+    return int.tryParse(input) ?? 0; // Pokud hodnota nejde převést použij 0
   }
 
   List<String> levyRezy(int sirkaFormatu, int sirkaTiskoviny, int okrajLevy, int spadavka) {
@@ -57,9 +62,9 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
       poziceRezu -= spadavka;
     }
 
-    // Přidáme "Otočit" a "Poslední řez"
+    // Otočit a Poslední řez
     rezy.add('Otočit');
-    rezy.add('Poslední řez: $sirkaTiskoviny');
+    rezy.add('Řez: $sirkaTiskoviny');
     return rezy;
   }
 
@@ -76,22 +81,23 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
       poziceRezu -= spadavka;
     }
 
-    // Přidáme "Otočit" a "Poslední řez"
+    // Otočit a Poslední řez
     rezy.add('Otočit');
-    rezy.add('Poslední řez: $vyskaTiskoviny');
+    rezy.add('Řez: $vyskaTiskoviny');
     return rezy;
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Počítání řezů')),
+      appBar: AppBar(title: const Text('Počítání řezů')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
           key: _formKey,
           child: SingleChildScrollView(
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 _buildTextField('Šířka formátu', _sirkaFormatuController),
                 _buildTextField('Výška formátu', _vyskaFormatuController),
@@ -100,15 +106,28 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
                 _buildTextField('Levý okraj', _okrajLevyController),
                 _buildTextField('Horní okraj', _okrajHorniController),
                 _buildTextField('Spadavka', _spadavkaController),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: _calculate,
-                  child: Text('Spočítat'),
+                  child: const Text('Spočítat'),
                 ),
-                SizedBox(height: 20),
-                _buildResult('Levé řezy', levyRezyList),
-                SizedBox(height: 20),
-                _buildResult('Horní řezy', horniRezyList),
+                const SizedBox(height: 20),
+                // Oddělení sekce výsledků
+                Container(
+                  padding: const EdgeInsets.all(12.0),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[900], // Světle šedé pozadí pro oddělení
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      _buildResult('Řezy z levé strany', levyRezyList),
+                      const SizedBox(height: 20),
+                      _buildResult('Řezy z horní strany', horniRezyList),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
@@ -119,14 +138,15 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
 
   Widget _buildTextField(String label, TextEditingController controller) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 8.0),
+      padding: const EdgeInsets.only(bottom: 20.0),
       child: TextFormField(
         controller: controller,
-        decoration: InputDecoration(labelText: label),
-        keyboardType: TextInputType.number, // Povolení pouze čísel
+        decoration: InputDecoration(labelText: label, border: const OutlineInputBorder(), suffixText: "mm"),
+        autofocus: true,
+        keyboardType: TextInputType.number, //  Pouze čísla
         validator: (value) {
           if (value == null || value.isEmpty) {
-            return 'Prosím zadejte hodnotu';
+            return 'Prosím zadej hodnotu';
           }
           return null;
         },
@@ -138,7 +158,19 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text(title, style: TextStyle(fontWeight: FontWeight.bold)),
+        const SizedBox(height: 16),
+        /* const Divider(thickness: 1.5), // Oddělení nadpisu */
+        Container(
+          padding: const EdgeInsets.symmetric(vertical: 8.0),
+          child: Text(
+            title,
+            style: const TextStyle(
+              fontSize: 22, // Zvýraznění nadpisu
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        const Divider(thickness: 1.5), // Oddělení nadpisu
         for (var i = 0; i < data.length; i++)
           ListTile(
             title: Text('${i + 1}. ${data[i]}'),

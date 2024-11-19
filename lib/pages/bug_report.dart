@@ -1,35 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-//import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BugReport extends StatelessWidget {
   const BugReport({super.key});
+
+  static const String githubUrl = 'https://github.com/lksmasin/polygrafie-flutter/issues';
+
+  static Future<void> _launchUrl() async {
+    final Uri url = Uri.parse(githubUrl);
+    if (await canLaunchUrl(url)) {
+      await launchUrl(url);
+    } else {
+      throw 'Nelze otevřít URL: $githubUrl';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Polygrafické nástroje'),
+        title: const Text('Nahlásit chybu'),
         elevation: 1,
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.bug_report),
-            tooltip: 'Nahlásit chybu',
-            onPressed: () {
-              HapticFeedback.lightImpact();
-              Navigator.push(context, MaterialPageRoute<void>(
-                builder: (BuildContext context) {
-                  return Scaffold(
-                    appBar: AppBar(
-                      title: const Text('Nahlásit chybu'),
-                    ),
-                    body: BugReport(),
-                  );
-                },
-              ));
-            },
-          ),
-        ],
       ),
       body: const Padding(
         padding: EdgeInsets.all(16.0),
@@ -42,12 +33,17 @@ class BugReport extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Pokud narazíte na chybu nebo problém, můžete ji nahlásit na GitHubu. Pomůžete nám tak aplikaci vylepšovat.',
+              'Pokud narazíš na chybu nebo problém, můžeš ji nahlásit na GitHubu. Pumůžeš mi tak aplikaci vylepšovat.',
+              style: TextStyle(fontSize: 16),
+            ),
+            SizedBox(height: 16),
+            Text(
+              'Nebo mi napiš na instagram @lukymas_',
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 16),
             ElevatedButton(
-              onPressed: null,
+              onPressed: _launchUrl,
               child: Text('Otevřít GitHub Issues'),
             ),
           ],

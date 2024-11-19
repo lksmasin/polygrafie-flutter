@@ -1,74 +1,74 @@
 [
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/drawable-v21_launch_background.xml.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/drawable-v21/launch_background.xml"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/drawable-v21_launch_background.xml.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "org.eu.lukymas.polygrafie.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "org.eu.lukymas.polygrafie.app-main-21:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "org.eu.lukymas.polygrafie.app-merged_res-28:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.eu.lukymas.polygrafie.app-main-23:/mipmap-xhdpi/ic_launcher_foreground.webp"
     }
 ]

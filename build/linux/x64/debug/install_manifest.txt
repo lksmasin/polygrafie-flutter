@@ -5,8 +5,8 @@
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
 /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle/data/flutter_assets/version.json

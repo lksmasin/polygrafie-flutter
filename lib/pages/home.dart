@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:polygrafie/pages/bug_report.dart';
+import 'package:polygrafie/pages/nastroje/formaty_pap.dart';
 import 'package:polygrafie/pages/nastroje/pocitani_rezu.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,17 +18,13 @@ class HomePage extends StatelessWidget {
             icon: const Icon(Icons.bug_report),
             tooltip: 'Nahlásit chybu',
             onPressed: () {
-              HapticFeedback.lightImpact();
-              Navigator.push(context, MaterialPageRoute<void>(
-                builder: (BuildContext context) {
-                  return Scaffold(
-                    appBar: AppBar(
-                      title: const Text('Nahlásit chybu'),
-                    ),
-                    body: BugReport(),
-                  );
-                },
-              ));
+              HapticFeedback.heavyImpact();
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const BugReport(),
+                ),
+              );
             },
           ),
         ],
@@ -51,7 +48,7 @@ class HomePage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => PocitaniRezu(), // Použijte třídu PocitaniRezu
+                        builder: (context) => const PocitaniRezu(), // Použijte třídu PocitaniRezu
                       ),
                     );
                   },
@@ -76,7 +73,14 @@ class HomePage extends StatelessWidget {
                 ListTile(
                   leading: const Icon(Icons.article),
                   title: const Text('Formáty papírů'),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const FormatyPap(), // Použijte třídu PocitaniRezu
+                      ),
+                    );
+                  },
                 ),
               ],
             ),

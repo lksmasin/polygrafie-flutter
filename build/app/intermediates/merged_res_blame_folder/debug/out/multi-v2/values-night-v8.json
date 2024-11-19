@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "org.eu.lukymas.polygrafie.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
+            "outputFile": "org.eu.lukymas.polygrafie.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/android/app/src/main/res/values-night/styles.xml",

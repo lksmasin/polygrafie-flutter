@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:polygrafie/ChangeNotifier.dart';
+import 'package:polygrafie/theme_provider.dart';
 
 class SettingsPage extends StatelessWidget {
+  const SettingsPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
@@ -11,63 +13,44 @@ class SettingsPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Nastavení'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text('Vyberte téma:', style: TextStyle(fontSize: 18)),
-            ListTile(
-              title: const Text('Světlý režim'),
-              leading: Radio(
-                value: ThemeMode.light,
-                groupValue: themeProvider.themeMode,
-                onChanged: (ThemeMode? mode) {
-                  themeProvider.setThemeMode(mode!);
-                },
-              ),
-            ),
-            ListTile(
-              title: const Text('Tmavý režim'),
-              leading: Radio(
-                value: ThemeMode.dark,
-                groupValue: themeProvider.themeMode,
-                onChanged: (ThemeMode? mode) {
-                  themeProvider.setThemeMode(mode!);
-                },
-              ),
-            ),
-            ListTile(
-              title: const Text('Systémový režim'),
-              leading: Radio(
-                value: ThemeMode.system,
-                groupValue: themeProvider.themeMode,
-                onChanged: (ThemeMode? mode) {
-                  themeProvider.setThemeMode(mode!);
-                },
-              ),
-            ),
-            const SizedBox(height: 20),
-            const Text('Vyberte výchozí barvu:', style: TextStyle(fontSize: 18)),
-            Wrap(
-              spacing: 10,
-              children: Colors.primaries.map((color) {
-                return GestureDetector(
-                  onTap: () {
-                    themeProvider.setPrimaryColor(color);
-                  },
-                  child: CircleAvatar(
-                    backgroundColor: color,
-                    radius: 20,
-                    child: themeProvider.primaryColor == color
-                        ? const Icon(Icons.check, color: Colors.white)
-                        : null,
+      body: Column(
+        children: [
+          SwitchListTile(
+            title: const Text('Tmavý režim'),
+            value: themeProvider.themeMode == ThemeMode.dark,
+            onChanged: (value) {
+              themeProvider.toggleTheme(value);
+            },
+          ),
+          ListTile(
+            title: const Text('Primární barva'),
+            trailing: DropdownButton<int>(
+              value: themeProvider.primaryColor.value,
+              items: [
+                Colors.green.value,
+                Colors.blue.value,
+                Colors.orange.value,
+                Colors.red.value,
+                Colors.pink.value,
+                Colors.purple.value,
+              ].map((colorValue) {
+                return DropdownMenuItem(
+                  value: colorValue,
+                  child: Container(
+                    width: 24,
+                    height: 24,
+                    color: Color(colorValue),
                   ),
                 );
               }).toList(),
+              onChanged: (colorValue) {
+                if (colorValue != null) {
+                  themeProvider.updatePrimaryColor(Color(colorValue));
+                }
+              },
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

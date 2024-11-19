@@ -26,7 +26,7 @@ class InfoPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Verze: 0',
+              'Verze: 3.0 RC',
               style: TextStyle(fontSize: 16),
             ),
             Text(

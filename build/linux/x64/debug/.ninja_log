@@ -1,56 +1,56 @@
 # ninja log v6
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	783bb416f0848e85
-1500	1821	1731342581258291611	CMakeFiles/polygrafie.dir/my_application.cc.o	d9b7bcab8a3577c9
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	783bb416f0848e85
-1911	1927	1731342581668290835	CMakeFiles/install.util	5cc63ccf527957d7
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/_phony_	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	783bb416f0848e85
-1823	1911	1731342581581624332	intermediates_do_not_run/polygrafie	12536e1ffa111668
-2	1500	1731342579761627779	flutter/_phony_	783bb416f0848e85
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	783bb416f0848e85
-1500	1823	1731342581258291611	CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o	f41cdd7db56538ce
-6147	6656	1731236925543753656	CMakeFiles/polygrafie.dir/main.cc.o	6e025a9e2c8430e1
-2	1500	1731342579761627779	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	783bb416f0848e85
-20	3409	1731344888675662812	flutter/_phony_	783bb416f0848e85
-20	3409	1731344888675662812	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/_phony_	783bb416f0848e85
-3409	3943	1731344892065653890	CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o	f41cdd7db56538ce
-3409	3986	1731344892065653890	CMakeFiles/polygrafie.dir/my_application.cc.o	d9b7bcab8a3577c9
-3986	4107	1731344892642319040	intermediates_do_not_run/polygrafie	12536e1ffa111668
-4107	4122	1731344892765652049	CMakeFiles/install.util	5cc63ccf527957d7
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	783bb416f0848e85
+7068	7673	1731436242617172734	CMakeFiles/polygrafie.dir/my_application.cc.o	d9b7bcab8a3577c9
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	783bb416f0848e85
+7804	7824	1731436243353827644	CMakeFiles/install.util	5cc63ccf527957d7
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	783bb416f0848e85
+7673	7804	1731436243220496444	intermediates_do_not_run/polygrafie	ba0922bff4017bab
+7068	7561	1731436242617172734	CMakeFiles/polygrafie.dir/main.cc.o	6e025a9e2c8430e1
+7068	7558	1731436242617172734	CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o	f41cdd7db56538ce
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	783bb416f0848e85
+0	7068	1731436235550616935	flutter/_phony_	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/_phony_	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	783bb416f0848e85
+0	7068	1731436235550616935	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	783bb416f0848e85
+3	2378	1731436261796854868	flutter/_phony_	783bb416f0848e85
+3	2378	1731436261796854868	/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/_phony_	783bb416f0848e85
+2386	2870	1731436264180147036	CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o	f41cdd7db56538ce
+2378	2943	1731436264173480486	CMakeFiles/polygrafie.dir/my_application.cc.o	d9b7bcab8a3577c9
+2943	3084	1731436264736804035	intermediates_do_not_run/polygrafie	12536e1ffa111668
+3085	3107	1731436264876801604	CMakeFiles/install.util	5cc63ccf527957d7

@@ -22,26 +22,25 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
   List<String> levyRezyList = [];
   List<String> horniRezyList = [];
 
-void _calculate() {
-  // Ověří, zda je formulář validní
-  if (_formKey.currentState?.validate() ?? false) {
-    int sirkaFormatu = _parseInput(_sirkaFormatuController.text);
-    int vyskaFormatu = _parseInput(_vyskaFormatuController.text);
-    int sirkaTiskoviny = _parseInput(_sirkaTiskovinyController.text);
-    int vyskaTiskoviny = _parseInput(_vyskaTiskovinyController.text);
-    int okrajLevy = _parseInput(_okrajLevyController.text);
-    int okrajHorni = _parseInput(_okrajHorniController.text);
-    int spadavka = _parseInput(_spadavkaController.text);
+  void _calculate() {
+    // Ověří, zda je formulář validní
+    if (_formKey.currentState?.validate() ?? false) {
+      int sirkaFormatu = _parseInput(_sirkaFormatuController.text);
+      int vyskaFormatu = _parseInput(_vyskaFormatuController.text);
+      int sirkaTiskoviny = _parseInput(_sirkaTiskovinyController.text);
+      int vyskaTiskoviny = _parseInput(_vyskaTiskovinyController.text);
+      int okrajLevy = _parseInput(_okrajLevyController.text);
+      int okrajHorni = _parseInput(_okrajHorniController.text);
+      int spadavka = _parseInput(_spadavkaController.text);
 
-    setState(() {
-      levyRezyList = levyRezy(sirkaFormatu, sirkaTiskoviny, okrajLevy, spadavka);
-      horniRezyList = horniRezy(vyskaFormatu, vyskaTiskoviny, okrajHorni, spadavka);
-    });
+      setState(() {
+        levyRezyList = levyRezy(sirkaFormatu, sirkaTiskoviny, okrajLevy, spadavka);
+        horniRezyList = horniRezy(vyskaFormatu, vyskaTiskoviny, okrajHorni, spadavka);
+      });
+    }
   }
-}
 
-
-  // Kontorola prázdných hodnot
+  // Kontrola prázdných hodnot
   int _parseInput(String input) {
     if (input.isEmpty) {
       return 0; // Pokud je pole prázdné použij 0
@@ -89,8 +88,9 @@ void _calculate() {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
-      appBar: AppBar(title: const Text('Počítání řezů')),
+      appBar: AppBar(title: const Text('Počítání řezů'), elevation: 1,),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
@@ -99,6 +99,7 @@ void _calculate() {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+                const SizedBox(height: 10),
                 _buildTextField('Šířka formátu', _sirkaFormatuController),
                 _buildTextField('Výška formátu', _vyskaFormatuController),
                 _buildTextField('Šířka tiskoviny', _sirkaTiskovinyController),
@@ -112,11 +113,11 @@ void _calculate() {
                   child: const Text('Spočítat'),
                 ),
                 const SizedBox(height: 20),
-                // Oddělení sekce výsledků
+                // Oddělení sekce výsledku
                 Container(
                   padding: const EdgeInsets.all(12.0),
                   decoration: BoxDecoration(
-                    color: Colors.grey[900], // Světle šedé pozadí pro oddělení
+                    color: Theme.of(context).colorScheme.surfaceContainer, // Dynamická barva
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                   child: Column(
@@ -143,7 +144,7 @@ void _calculate() {
         controller: controller,
         decoration: InputDecoration(labelText: label, border: const OutlineInputBorder(), suffixText: "mm"),
         autofocus: true,
-        keyboardType: TextInputType.number, //  Pouze čísla
+        keyboardType: TextInputType.number, // Pouze čísla
         validator: (value) {
           if (value == null || value.isEmpty) {
             return 'Prosím zadej hodnotu';
@@ -159,7 +160,6 @@ void _calculate() {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         const SizedBox(height: 16),
-        /* const Divider(thickness: 1.5), // Oddělení nadpisu */
         Container(
           padding: const EdgeInsets.symmetric(vertical: 8.0),
           child: Text(

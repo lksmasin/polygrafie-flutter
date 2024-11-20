@@ -54,6 +54,7 @@ class _FormatyPapState extends State<FormatyPap> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Velikosti papírů'),
+        elevation: 1,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () => Navigator.pop(context),

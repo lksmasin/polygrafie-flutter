@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:polygrafie/pages/bug_report.dart';
 import 'package:polygrafie/pages/nastroje/formaty_pap.dart';
 import 'package:polygrafie/pages/nastroje/pocitani_rezu.dart';
+import 'package:polygrafie/pages/nastroje/poct_ceny_pap.dart';
+import 'package:polygrafie/pages/nastroje/poct_uzit_tisk_arch.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -57,18 +59,26 @@ class HomePage extends StatelessWidget {
                   leading: const Icon(Icons.calculate),
                   title: const Text('Počítání užitku tisk. archů'),
                   onTap: () {
-/*                     Navigator.push(
+                    // Otevřete obrazovku pro počítání řezů
+                    Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => PocitaniRezu(), // Použijte třídu PocitaniRezu
+                        builder: (context) => const PocitaniUzitkuTiskArchu(), // Použijte třídu PocitaniRezu
                       ),
-                    ); */
+                    );
                   },
                 ),
                 ListTile(
                   leading: const Icon(Icons.functions),
                   title: const Text('Počítání ceny papíru'),
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const PoctCenyPap(),
+                      ),
+                    );
+                  },
                 ),
                 ListTile(
                   leading: const Icon(Icons.article),
@@ -77,7 +87,7 @@ class HomePage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const FormatyPap(), // Použijte třídu PocitaniRezu
+                        builder: (context) => const FormatyPap(),
                       ),
                     );
                   },

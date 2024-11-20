@@ -21,6 +21,7 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
 
   List<String> levyRezyList = [];
   List<String> horniRezyList = [];
+  bool showResults = false; // Přidáno: kontrola zobrazení výsledků
 
   void _calculate() {
     // Ověří, zda je formulář validní
@@ -36,6 +37,7 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
       setState(() {
         levyRezyList = levyRezy(sirkaFormatu, sirkaTiskoviny, okrajLevy, spadavka);
         horniRezyList = horniRezy(vyskaFormatu, vyskaTiskoviny, okrajHorni, spadavka);
+        showResults = true; // Nastavení na true pro zobrazení výsledků
       });
     }
   }
@@ -88,9 +90,8 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
-      appBar: AppBar(title: const Text('Počítání řezů'), elevation: 1,),
+      appBar: AppBar(title: const Text('Počítání řezů'), elevation: 1),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
@@ -113,22 +114,23 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
                   child: const Text('Spočítat'),
                 ),
                 const SizedBox(height: 20),
-                // Oddělení sekce výsledku
-                Container(
-                  padding: const EdgeInsets.all(12.0),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.surfaceContainer, // Dynamická barva
-                    borderRadius: BorderRadius.circular(8.0),
+                // Zobrazí container pouze pokud jsou dostupné výsledky
+                if (showResults)
+                  Container(
+                    padding: const EdgeInsets.all(12.0),
+                    decoration: BoxDecoration(
+                      color: Theme.of(context).colorScheme.surfaceContainer, // Dynamická barva
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        _buildResult('Řezy z levé strany', levyRezyList),
+                        const SizedBox(height: 20),
+                        _buildResult('Řezy z horní strany', horniRezyList),
+                      ],
+                    ),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      _buildResult('Řezy z levé strany', levyRezyList),
-                      const SizedBox(height: 20),
-                      _buildResult('Řezy z horní strany', horniRezyList),
-                    ],
-                  ),
-                ),
               ],
             ),
           ),

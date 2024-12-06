@@ -107,7 +107,7 @@ class _PocitaniRezuState extends State<PocitaniRezu> {
                 _buildTextField('Výška tiskoviny', _vyskaTiskovinyController),
                 _buildTextField('Levý okraj', _okrajLevyController),
                 _buildTextField('Horní okraj', _okrajHorniController),
-                _buildTextField('Spadavka', _spadavkaController),
+                _buildTextField('Dvojřez', _spadavkaController),
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: _calculate,

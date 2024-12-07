@@ -47,13 +47,13 @@ cmake_ninja_workdir = /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/buil
 #############################################
 # Order-only phony target for polygrafie
 
-build cmake_object_order_depends_target_polygrafie: phony || flutter/flutter_assemble
+build cmake_object_order_depends_target_polygrafie: phony || cmake_object_order_depends_target_url_launcher_linux_plugin flutter/flutter_assemble
 
 build CMakeFiles/polygrafie.dir/main.cc.o: CXX_COMPILER__polygrafie_unscanned_Debug /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/main.cc || cmake_object_order_depends_target_polygrafie
   DEFINES = -DAPPLICATION_ID=\"org.eu.lukymas.polygrafie\"
   DEP_FILE = CMakeFiles/polygrafie.dir/main.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = CMakeFiles/polygrafie.dir
   OBJECT_FILE_DIR = CMakeFiles/polygrafie.dir
 
@@ -61,7 +61,7 @@ build CMakeFiles/polygrafie.dir/my_application.cc.o: CXX_COMPILER__polygrafie_un
   DEFINES = -DAPPLICATION_ID=\"org.eu.lukymas.polygrafie\"
   DEP_FILE = CMakeFiles/polygrafie.dir/my_application.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = CMakeFiles/polygrafie.dir
   OBJECT_FILE_DIR = CMakeFiles/polygrafie.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o: CXX_CO
   DEFINES = -DAPPLICATION_ID=\"org.eu.lukymas.polygrafie\"
   DEP_FILE = CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g -Wall -Werror -pthread
-  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
   OBJECT_DIR = CMakeFiles/polygrafie.dir
   OBJECT_FILE_DIR = CMakeFiles/polygrafie.dir/flutter
 
@@ -81,11 +81,11 @@ build CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o: CXX_CO
 #############################################
 # Link the executable intermediates_do_not_run/polygrafie
 
-build intermediates_do_not_run/polygrafie: CXX_EXECUTABLE_LINKER__polygrafie_Debug CMakeFiles/polygrafie.dir/main.cc.o CMakeFiles/polygrafie.dir/my_application.cc.o CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o | /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
+build intermediates_do_not_run/polygrafie: CXX_EXECUTABLE_LINKER__polygrafie_Debug CMakeFiles/polygrafie.dir/main.cc.o CMakeFiles/polygrafie.dir/my_application.cc.o CMakeFiles/polygrafie.dir/flutter/generated_plugin_registrant.cc.o | plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
   DEP_FILE = CMakeFiles/polygrafie.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Xlinker --dependency-file -Xlinker CMakeFiles/polygrafie.dir/link.d
-  LINK_LIBRARIES = -Wl,-rpath,"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral:"  "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so"  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  LINK_FLAGS = -Xlinker --dependency-file=CMakeFiles/polygrafie.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux:/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral:"  plugins/url_launcher_linux/liburl_launcher_linux_plugin.so  "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so"  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
   OBJECT_DIR = CMakeFiles/polygrafie.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -251,11 +251,132 @@ build /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/epheme
   restat = 1
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/generated_plugins.cmake
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Order-only phony target for url_launcher_linux_plugin
+
+build cmake_object_order_depends_target_url_launcher_linux_plugin: phony || flutter/flutter_assemble
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/messages.g.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  DEFINES = -DAPPLICATION_ID=\"org.eu.lukymas.polygrafie\" -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
+  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  DEFINES = -DAPPLICATION_ID=\"org.eu.lukymas.polygrafie\" -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -pthread
+  INCLUDES = -I"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral" -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/include/freetype2 -isystem /usr/include/glib-2.0 -isystem /usr/lib/glib-2.0/include -isystem /usr/include/harfbuzz -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1 -isystem /usr/include/cloudproviders -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/dbus-1.0 -isystem /usr/lib/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/sysprof-6 -isystem /usr/include/gio-unix-2.0
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Link the shared library plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+build plugins/url_launcher_linux/liburl_launcher_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__url_launcher_linux_plugin_Debug plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o | /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libz.so /usr/lib/libharfbuzz.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libcairo-gobject.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libgobject-2.0.so || flutter/flutter_assemble
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_FLAGS = -Xlinker --dependency-file=plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral"  "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so"  /usr/lib/libgtk-3.so  /usr/lib/libgdk-3.so  /usr/lib/libz.so  /usr/lib/libharfbuzz.so  /usr/lib/libpangocairo-1.0.so  /usr/lib/libpango-1.0.so  /usr/lib/libatk-1.0.so  /usr/lib/libcairo.so  /usr/lib/libcairo-gobject.so  /usr/lib/libgdk_pixbuf-2.0.so  /usr/lib/libgio-2.0.so  /usr/lib/libglib-2.0.so  /usr/lib/libgobject-2.0.so
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = liburl_launcher_linux_plugin.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+  TARGET_PDB = url_launcher_linux_plugin.so.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build plugins/url_launcher_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux" && /usr/bin/ccmake -S"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux" -B"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/edit_cache: phony plugins/url_launcher_linux/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux" && /usr/bin/cmake --regenerate-during-build -S"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux" -B"/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/rebuild_cache: phony plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build plugins/url_launcher_linux/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build plugins/url_launcher_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux" && /usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install: phony plugins/url_launcher_linux/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build plugins/url_launcher_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux" && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/local: phony plugins/url_launcher_linux/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build plugins/url_launcher_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux" && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/strip: phony plugins/url_launcher_linux/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build flutter_assemble: phony flutter/flutter_assemble
 
+build liburl_launcher_linux_plugin.so: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
 build polygrafie: phony intermediates_do_not_run/polygrafie
+
+build url_launcher_linux_plugin: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 # =============================================================================
 # Folder targets.
@@ -265,7 +386,7 @@ build polygrafie: phony intermediates_do_not_run/polygrafie
 #############################################
 # Folder: /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug
 
-build all: phony intermediates_do_not_run/polygrafie flutter/all
+build all: phony intermediates_do_not_run/polygrafie flutter/all plugins/url_launcher_linux/all
 
 # =============================================================================
 
@@ -275,20 +396,27 @@ build all: phony intermediates_do_not_run/polygrafie flutter/all
 build flutter/all: phony
 
 # =============================================================================
+
+#############################################
+# Folder: /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux
+
+build plugins/url_launcher_linux/all: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/generated_config.cmake /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.0/CMakeCXXCompiler.cmake CMakeFiles/3.31.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/generated_config.cmake /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/generated_config.cmake /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.0/CMakeCXXCompiler.cmake CMakeFiles/3.31.0/CMakeSystem.cmake: phony
+build /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/ephemeral/generated_config.cmake /home/masin/Vyvoj/GitHub$ Projekty/polygrafie_flutter/linux/flutter/generated_plugins.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.2/CMakeCXXCompiler.cmake CMakeFiles/3.31.2/CMakeSystem.cmake: phony
 
 
 #############################################

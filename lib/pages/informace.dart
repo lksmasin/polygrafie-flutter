@@ -26,7 +26,7 @@ class InfoPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Verze: 3.0 RC',
+              'Verze: 3.0.1',
               style: TextStyle(fontSize: 16),
             ),
             Text(
@@ -41,7 +41,7 @@ class InfoPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Asi nejíce používaný nástroj. Používá se pro výpočet řezů. Zadáš velikost čistého formátu a tiskoviny, okraje, spadávky a po stisknutí vypočítat se vypíší výsledky které stačí zadat stroji na řezání.',
+              'Asi nejíce používaný nástroj. Používá se pro výpočet řezů. Zadáš velikost čistého formátu a tiskoviny, okraje, dvojřezu a po stisknutí vypočítat se vypíší výsledky které stačí zadat stroji na řezání. DVOJ ŘEZ JE VELIKOST MEZI DVĚMI SPADÁVKAMI NA TA!',
               style: TextStyle(fontSize: 16),
             ),
             Divider(),

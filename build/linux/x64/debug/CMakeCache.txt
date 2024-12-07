@@ -25,7 +25,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++
 
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=CMAKE_CXX_COMPILER_AR-NOTFOUND
@@ -259,6 +259,15 @@ runner_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 runner_SOURCE_DIR:STATIC=/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux
 
+//Value Computed by CMake
+url_launcher_linux_BINARY_DIR:STATIC=/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux
+
+//Value Computed by CMake
+url_launcher_linux_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+url_launcher_linux_SOURCE_DIR:STATIC=/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux
+
 
 ########################
 # INTERNAL cache entries
@@ -275,7 +284,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=31
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
@@ -352,7 +361,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -398,7 +407,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v2.1.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v2.3.0()]
 GIO_CFLAGS:INTERNAL=-I/usr/include;-I/usr/include/glib-2.0;-I/usr/lib/glib-2.0/include;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/sysprof-6;-pthread
 GIO_CFLAGS_I:INTERNAL=
 GIO_CFLAGS_OTHER:INTERNAL=-pthread

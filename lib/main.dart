@@ -12,7 +12,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final themeProvider = ThemeProvider();
   await themeProvider.loadPreferences();
-  
+
   runApp(
     ChangeNotifierProvider(
       create: (_) => themeProvider,
@@ -60,7 +60,7 @@ class RootPage extends StatefulWidget {
 
 class _RootPageState extends State<RootPage> {
   int currentPage = 0;
-  
+
   final screens = [
     const HomePage(),
     const InfoPage(),
@@ -72,15 +72,24 @@ class _RootPageState extends State<RootPage> {
     super.initState();
     // Zobrazí SnackBar ihned po spuštění aplikace
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      final theme = Theme.of(context); // Získání aktuálního tématu
+      final isDarkMode = theme.brightness == Brightness.dark;
+
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           duration: const Duration(seconds: 15),
-          backgroundColor: Theme.of(context).colorScheme.errorContainer,
-          content: const Text('Využívej s dovolením vyučujícího!', style: TextStyle(color: Colors.white)),
+          backgroundColor: theme.colorScheme.errorContainer,
+          content: Text(
+            'Využívej s dovolením vyučujícího!',
+            style: TextStyle(
+              color: isDarkMode ? Colors.white : Colors.black, // Dynamická barva
+            ),
+          ),
         ),
       );
     });
   }
+
 
   @override
   Widget build(BuildContext context) {

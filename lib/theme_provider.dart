@@ -19,13 +19,13 @@ class ThemeProvider extends ChangeNotifier {
     _primaryColor = color;
     notifyListeners();
     final prefs = await SharedPreferences.getInstance();
-    prefs.setInt('primaryColor', color.value);
+    prefs.setInt('primaryColor', color.toARGB32());
   }
 
   Future<void> loadPreferences() async {
     final prefs = await SharedPreferences.getInstance();
     _themeMode = prefs.getBool('isDarkMode') == true ? ThemeMode.dark : ThemeMode.light;
-    _primaryColor = Color(prefs.getInt('primaryColor') ?? Colors.green.value);
+    _primaryColor = Color(prefs.getInt('primaryColor') ?? Colors.green.toARGB32());
     notifyListeners();
   }
 }

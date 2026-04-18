@@ -1,8 +1,8 @@
-# Install script for directory: /home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/linux/flutter
+# Install script for directory: /home/masin/Projekty/GitHub/polygrafie-flutter/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/install_local_manifest.txt"
+  file(WRITE "/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

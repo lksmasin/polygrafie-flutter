@@ -10,26 +10,42 @@ class FormatyPap extends StatefulWidget {
 class _FormatyPapState extends State<FormatyPap> {
 
   Widget buildTable(String title, List<List<String>> data, List<String> headers) {
+    final colorScheme = Theme.of(context).colorScheme;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SizedBox(height: 16),
+        const SizedBox(height: 24),
         Text(
           title,
-          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: colorScheme.primary,
+          ),
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 12),
         Table(
-          border: TableBorder.all(color: Colors.white70 ),
+          border: TableBorder.all(
+            color: colorScheme.outlineVariant,
+            width: 1,
+            borderRadius: BorderRadius.circular(4),
+          ),
           columnWidths: {
             for (int i = 0; i < headers.length; i++) i: const FlexColumnWidth()
           },
           children: [
             TableRow(
+              decoration: BoxDecoration(
+                color: colorScheme.surfaceContainerHighest,
+              ),
               children: headers
                   .map((header) => Padding(
-                        padding: const EdgeInsets.all(8),
-                        child: Text(header, textAlign: TextAlign.center),
+                        padding: const EdgeInsets.all(12),
+                        child: Text(
+                          header,
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ))
                   .toList(),
             ),
@@ -37,7 +53,7 @@ class _FormatyPapState extends State<FormatyPap> {
               (row) => TableRow(
                 children: row
                     .map((cell) => Padding(
-                          padding: const EdgeInsets.all(8),
+                          padding: const EdgeInsets.all(12),
                           child: Text(cell, textAlign: TextAlign.center),
                         ))
                     .toList(),

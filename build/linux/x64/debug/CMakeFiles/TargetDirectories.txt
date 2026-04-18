@@ -1,21 +1,34 @@
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/polygrafie.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/edit_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/list_install_components.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/install.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/install/local.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/CMakeFiles/install/strip.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/install.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/edit_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/rebuild_cache.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/list_install_components.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install/local.dir
-/home/masin/Vyvoj/GitHub Projekty/polygrafie_flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install/strip.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/polygrafie.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/edit_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/list_install_components.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/install.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/install/local.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/CMakeFiles/install/strip.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/install.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/edit_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/rebuild_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/list_install_components.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install/local.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/CMakeFiles/install/strip.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/edit_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/rebuild_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/list_install_components.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/install.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/install/local.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/CMakeFiles/install/strip.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/jni.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/edit_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/rebuild_cache.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/list_install_components.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/install.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/install/local.dir
+/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/CMakeFiles/install/strip.dir

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:polygrafie/pages/home.dart';
 import 'package:polygrafie/pages/informace.dart';
 import 'package:polygrafie/pages/nastaveni.dart';
@@ -27,22 +28,36 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
+    final baseTextTheme = GoogleFonts.interTextTheme();
 
     return MaterialApp(
       title: "Polygrafické nástroje",
       themeMode: themeProvider.themeMode,
       theme: ThemeData(
         useMaterial3: true,
+        textTheme: baseTextTheme,
         colorScheme: ColorScheme.fromSeed(
           seedColor: themeProvider.primaryColor,
           brightness: Brightness.light,
         ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+        ),
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
+        textTheme: baseTextTheme.apply(
+          bodyColor: Colors.white,
+          displayColor: Colors.white,
+        ),
         colorScheme: ColorScheme.fromSeed(
           seedColor: themeProvider.primaryColor,
           brightness: Brightness.dark,
+        ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
         ),
       ),
       debugShowCheckedModeBanner: false,
@@ -72,18 +87,27 @@ class _RootPageState extends State<RootPage> {
     super.initState();
     // Zobrazí SnackBar ihned po spuštění aplikace
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      final theme = Theme.of(context); // Získání aktuálního tématu
-      final isDarkMode = theme.brightness == Brightness.dark;
-
+      final theme = Theme.of(context);
+      
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          duration: const Duration(seconds: 15),
-          backgroundColor: theme.colorScheme.errorContainer,
+          duration: const Duration(seconds: 4),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+          backgroundColor: theme.colorScheme.secondaryContainer,
           content: Text(
             'Využívej s dovolením vyučujícího!',
             style: TextStyle(
-              color: isDarkMode ? Colors.white : Colors.black, // Dynamická barva
+              color: theme.colorScheme.onSecondaryContainer,
+              fontWeight: FontWeight.bold,
             ),
+          ),
+          action: SnackBarAction(
+            label: 'Rozumím',
+            textColor: theme.colorScheme.primary,
+            onPressed: () {
+              ScaffoldMessenger.of(context).hideCurrentSnackBar();
+            },
           ),
         ),
       );

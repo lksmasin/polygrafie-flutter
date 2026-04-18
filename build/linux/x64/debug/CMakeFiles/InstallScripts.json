@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/cmake_install.cmake",
+		"/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/flutter/cmake_install.cmake",
+		"/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/url_launcher_linux/cmake_install.cmake",
+		"/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/cmake_install.cmake",
+		"/home/masin/Projekty/GitHub/polygrafie-flutter/build/linux/x64/debug/plugins/jni/shared/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
